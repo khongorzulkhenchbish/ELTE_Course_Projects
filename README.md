@@ -6,9 +6,7 @@
 I used [this Youtube tutorial](https://www.youtube.com/watch?v=_SqnzvJuKiA) by Awais Mirza for the basic code and movement and further improved with **Object Oriented** approach. In addition, you can check the installation guide under the zipped directory.
 
 __Used tools versions__:
-- jdk 11
-- derby 10.14.2
-- apache netbeans 12.6.
+- jdk 11, derby 10.14.2, apache netbeans 12.6.
 
 __Important links__:
 - [UML Class Diagram](https://github.com/khongorzulkhenchbish/ELTE_course_projects/blob/main/programming_technology/khongorzul-Snake/workspace/snake-class-diagram.png)
