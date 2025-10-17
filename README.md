@@ -49,27 +49,24 @@ board at the end than his opponent. The game is draw, if they have the same numb
 pebbles on the board.
 
 __Important links__:
-- [UML Class Diagram](https://github.com/khongorzulkhenchbish/ELTE_course_projects/blob/main/programming_technology/khongorzul-Snake/workspace/snake-class-diagram.png)
-- [Full Documentation](https://github.com/khongorzulkhenchbish/ELTE_course_projects/blob/main/programming_technology/khongorzul-Snake/workspace/khongorzul-assignments-3.pdf)
+- [UML Class Diagram](https://github.com/khongorzulkhenchbish/ELTE_course_projects/blob/main/programming_technology/khongorzul-Pebble/pebbles-class-diagram.png)
+- [Full Documentation](https://github.com/khongorzulkhenchbish/ELTE_course_projects/blob/main/programming_technology/khongorzul-Pebble/khongorzul-assignment-2-pebble-gui.pdf)
 
 
 <table>
   <tr>
     <td align="center">
-      Start the game<br>
-      <img src="https://github.com/user-attachments/assets/88c68373-c11d-48b8-9681-c2778361da1b" alt="Screenshot 2025-09-24 at 12 34 40" height="250">
+      <img src="https://github.com/user-attachments/assets/866590d3-6150-4b49-a467-3ea0539cda53" alt="Screenshot 2025-09-24 at 12 34 40" height="250">
     </td>
   </tr>
   <tr>
     <td align="center">
-      Leaderboard<br>
-      <img src="https://github.com/user-attachments/assets/cd6a6598-fc2e-41ec-8330-a3ea0354141e" alt="Screenshot 2025-09-24 at 12 34 40" height="250">
+      <img src="https://github.com/user-attachments/assets/c7f7c584-a6ec-42fc-bb68-6b5fff1f313a" alt="Screenshot 2025-09-24 at 12 34 40" height="250">
     </td>
   </tr>
   <tr>
     <td align="center">
-      Leaderboard<br>
-      <img src="https://github.com/user-attachments/assets/cd6a6598-fc2e-41ec-8330-a3ea0354141e" alt="Screenshot 2025-09-24 at 12 34 40" height="250">
+      <img src="https://github.com/user-attachments/assets/2a6811e3-ffe1-4202-8f1c-d6ecb0f670b1" alt="Screenshot 2025-09-24 at 12 34 40" height="250">
     </td>
   </tr>
 </table>
