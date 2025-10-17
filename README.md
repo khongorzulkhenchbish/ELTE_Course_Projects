@@ -58,15 +58,13 @@ __Important links__:
     <td align="center">
       <img src="https://github.com/user-attachments/assets/866590d3-6150-4b49-a467-3ea0539cda53" alt="Screenshot 2025-09-24 at 12 34 40" height="250">
     </td>
-  </tr>
-  <tr>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/c7f7c584-a6ec-42fc-bb68-6b5fff1f313a" alt="Screenshot 2025-09-24 at 12 34 40" height="250">
+      <img src="https://github.com/user-attachments/assets/2a6811e3-ffe1-4202-8f1c-d6ecb0f670b1" alt="Screenshot 2025-09-24 at 12 34 40" height="250">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/2a6811e3-ffe1-4202-8f1c-d6ecb0f670b1" alt="Screenshot 2025-09-24 at 12 34 40" height="250">
+      <img src="https://github.com/user-attachments/assets/c7f7c584-a6ec-42fc-bb68-6b5fff1f313a" alt="Screenshot 2025-09-24 at 12 34 40" height="250">
     </td>
   </tr>
 </table>
