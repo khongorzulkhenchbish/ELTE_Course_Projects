@@ -1,0 +1,13 @@
+program oszto
+  integer a;
+  integer oszto;
+  boolean vanoszto;
+begin
+  read(a);
+  vanoszto := false;
+  if a mod 2 = 0 
+  then
+    vanoszto := true;
+    oszto := i;
+  endif
+end

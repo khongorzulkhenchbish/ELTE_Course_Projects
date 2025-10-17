@@ -1,0 +1,9 @@
+program oszto
+  boolean array a[100];
+  integer i;
+begin
+  a[] := {true, false, false, true, true or false, true and false};
+  a[10] := true;
+  read(a[11]);
+  a[12] := a[10] or a[11];
+end

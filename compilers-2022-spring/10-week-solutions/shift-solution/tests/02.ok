@@ -1,0 +1,7 @@
+program ures
+begin
+    write((8 >> 1) = 4);
+    write((8 >> 2) = 2);
+    write((8 >> 3) = 1);
+    write((8 >> 4) = 0);
+end

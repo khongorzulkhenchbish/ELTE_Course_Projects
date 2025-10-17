@@ -1,0 +1,9 @@
+program oszto
+  integer array a[100];
+  integer i;
+begin
+  a[] := {2*2, 2-3, 2+4, 2 div 5, 2 mod 6};
+  a[10] := 2;
+  read(a[11]);
+  a[12] := a[10] + a[11];
+end

@@ -1,0 +1,14 @@
+program prog1
+    integer id1;
+    integer id2;
+    integer id3;
+    integer id4;
+    integer id5;
+    integer id6;
+    integer id7;
+    integer id8;
+    integer id9;
+    integer id10;
+begin
+    id1, id2, id3, id4, id5, id6, id7, id8, id9, id10 := 1, 2, 3, 4, 5, 6, 7, 8, 9;
+end

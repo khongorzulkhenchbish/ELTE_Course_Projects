@@ -1,0 +1,37 @@
+program jump
+    integer x;
+    integer y;
+    boolean a;
+    boolean b;
+begin
+    read(x);
+    read(y);
+    a := false;
+    b := false;
+
+    inc_x:
+    if a then
+        a := false;
+        x := x + 1;
+        write(x);
+    endif
+
+    inc_y:
+    if b then
+        b := false;
+        y := y + 1;
+        write(y);
+    endif
+
+    if x < y then
+        a := true;
+        goto inc_x;
+    else
+        if x > y then
+            b := true;
+            goto inc_y;
+        endif
+    endif
+
+    write(x = y);
+end

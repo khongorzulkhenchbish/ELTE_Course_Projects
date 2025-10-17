@@ -1,0 +1,10 @@
+program compare12
+    integer x12;
+begin
+    read(x12);
+    if x12 < 10 then
+        write(true);
+    else
+        write(false);
+    endif
+end

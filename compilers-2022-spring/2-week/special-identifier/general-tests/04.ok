@@ -1,0 +1,7 @@
+program negat12
+    boolean x12;
+begin
+    read(x12);
+    x12 := not x12;
+    write(x12);
+end

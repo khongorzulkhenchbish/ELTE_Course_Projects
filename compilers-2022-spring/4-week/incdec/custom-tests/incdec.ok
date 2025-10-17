@@ -1,0 +1,20 @@
+program incdec
+    integer a;
+    integer b;
+    integer c;
+begin
+    b := 0;
+    c := 0;
+    while b < 10 or c < 10 do 
+        read(a);
+        if a mod 2 = 0 then
+            b++;
+            c--;
+        else
+            ++c;
+            --b;
+        endif
+    done
+    write(--b);
+    write(c++);
+end

@@ -1,0 +1,7 @@
+program time_tester
+  time a;
+  time b;
+  time c;
+begin
+  c := a - b;
+end

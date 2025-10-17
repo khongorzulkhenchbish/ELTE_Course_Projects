@@ -1,0 +1,5 @@
+program ex
+  integer x;
+begin
+  x := arr[0]; 
+end

@@ -1,0 +1,5 @@
+program str
+    boolean a;
+begin
+    a := "Hello" = "World";
+end

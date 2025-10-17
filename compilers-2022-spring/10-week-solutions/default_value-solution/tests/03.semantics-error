@@ -1,0 +1,7 @@
+program ures
+    integer a = a + 1;
+    integer b = 12;
+begin
+    write(a);
+    write(b);
+end

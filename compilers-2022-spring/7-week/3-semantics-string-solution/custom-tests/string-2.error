@@ -1,0 +1,6 @@
+program str
+    string a;
+    string b;
+begin
+    a := "Hello" * b;
+end

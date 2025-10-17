@@ -1,0 +1,33 @@
+program jump
+    integer x;
+    integer y;
+    boolean loop;
+begin
+    read(x);
+    read(y);
+    loop := false;
+
+
+    if loop then
+        halve_y:
+        y := y div 2;
+        write(y); 
+
+        if x > y then
+            halve_x:
+            x := x div 2;
+            write(x);
+        endif
+    endif
+
+    loop := true;
+    if x < y then 
+        goto halve_y;
+    else
+        if x > y then
+            goto halve_x;
+        endif
+    endif
+
+    write(x = y);
+end

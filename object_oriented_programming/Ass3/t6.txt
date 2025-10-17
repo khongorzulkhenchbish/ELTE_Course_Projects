@@ -1,0 +1,4 @@
+1 1
+arctic f 8
+hare h 12
+

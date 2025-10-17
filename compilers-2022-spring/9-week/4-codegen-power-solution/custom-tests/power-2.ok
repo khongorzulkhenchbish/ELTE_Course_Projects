@@ -1,0 +1,6 @@
+program pow
+    integer x;
+begin
+    read(x);
+    write(x ** 2);
+end

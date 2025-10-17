@@ -1,0 +1,7 @@
+program oszto
+  integer list a;
+  integer list b;
+  integer i;
+begin
+  a += 10;
+end

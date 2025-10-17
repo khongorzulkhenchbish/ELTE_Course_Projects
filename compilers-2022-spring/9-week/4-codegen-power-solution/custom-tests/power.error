@@ -1,0 +1,5 @@
+program pow
+    integer x;
+begin
+    x := a ** 2;
+end

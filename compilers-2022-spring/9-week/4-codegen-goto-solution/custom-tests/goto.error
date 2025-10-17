@@ -1,0 +1,23 @@
+program jump
+    integer a;
+    integer b;
+begin
+    read(a);
+    read(b);
+
+    inc_a:
+    a := a + 1;
+    write(a);
+
+    if a < b then
+        goto inc_a;
+    else
+        if a > b then
+            goto dec_b;
+        endif
+    endif
+
+    dec_b:
+    b := b - 1;
+    write(b);
+end

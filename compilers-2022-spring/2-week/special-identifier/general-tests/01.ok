@@ -1,0 +1,23 @@
+program oszto12
+  integer a12;
+  integer i12;
+  integer oszto12;
+  boolean vanoszt12;
+begin
+  read(a12);
+  vanoszt12 := false;
+  i12 := 2;
+  while not vanoszt12 and i12 < a12 do
+    if a12 mod i12 = 0 then
+      vanoszt12 := true;
+      oszto12 := i12;
+    endif
+    i12 := i12+1;
+  done
+  if vanoszt12 then
+    write(vanoszt12);
+    write(oszto12);
+  else
+    write(vanoszt12);
+  endif
+end

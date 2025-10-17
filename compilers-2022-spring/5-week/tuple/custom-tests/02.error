@@ -1,0 +1,7 @@
+program oszto
+  integer a;
+  <> b;
+begin
+  b.2 := b.1 = b.3;
+  b.3 := 200;
+end

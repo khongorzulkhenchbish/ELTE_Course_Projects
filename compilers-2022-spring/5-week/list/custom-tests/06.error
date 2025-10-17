@@ -1,0 +1,6 @@
+program oszto
+  integer list a;
+  integer i;
+begin
+  a[i] := 2;
+end

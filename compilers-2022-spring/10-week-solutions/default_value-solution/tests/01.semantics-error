@@ -1,0 +1,6 @@
+program ures
+    integer a = true;
+    boolean b;
+begin
+    write(a);
+end

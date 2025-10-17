@@ -1,0 +1,8 @@
+program pow
+    integer x;
+begin
+    x := 1;
+    if x ** 2 then
+        write(x);
+    endif
+end

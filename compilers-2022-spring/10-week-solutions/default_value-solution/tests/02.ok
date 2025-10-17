@@ -1,0 +1,9 @@
+program ures
+    integer a;
+    boolean c = false;
+begin
+    while not c do
+        read(a);
+        c := (a mod 3 = 0);
+    done
+end

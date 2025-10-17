@@ -1,0 +1,8 @@
+program pow
+    integer x;
+    integer y;
+begin
+    read(x);
+    read(y);
+    write(x ** y);
+end

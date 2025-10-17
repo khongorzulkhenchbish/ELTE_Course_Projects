@@ -1,0 +1,14 @@
+program oszto
+  integer a;
+  integer i;
+  integer oszto;
+  boolean vanoszto;
+begin
+  read(a);
+  vanoszto := false;
+  i := 2;
+  while not vanoszto and i < a 
+  do
+    i := i+1;
+  done
+end

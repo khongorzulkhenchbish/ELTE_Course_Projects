@@ -1,0 +1,16 @@
+program jump
+    integer x;
+    integer y;
+begin
+    read(x);
+    y := x + 5;
+    
+    a:
+    x := x + 1;
+    write(x);
+    if x < y then
+        goto a;
+    endif
+
+    write(x = y);
+end

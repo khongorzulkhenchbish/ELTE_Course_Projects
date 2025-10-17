@@ -1,0 +1,9 @@
+program pow
+begin
+    write(5 ** 1 = 5);
+    write(5 ** 2 = 25);
+    write(5 ** 3 = 125);
+    
+    write(2 ** 8 = 256);
+    write(2 ** 2 ** 3 = 256);
+end

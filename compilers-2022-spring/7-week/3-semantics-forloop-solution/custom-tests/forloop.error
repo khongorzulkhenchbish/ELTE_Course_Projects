@@ -1,0 +1,7 @@
+program forloop
+    integer a;
+begin
+    for a := true to false do
+        write(a);
+    done
+end

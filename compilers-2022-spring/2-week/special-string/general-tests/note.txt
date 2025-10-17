@@ -1,0 +1,19 @@
+This folder contains test cases which checks the integrity of the lex parser.
+
+These test cases should
+    1. parse all the tokens without fail in the *.ok files.
+    2. exit with "Lexical error" in *.lexical-error files
+
+Example for *.ok file output:
+T_ID
+T_ADD
+T_ID
+
+Example for *.lexical-error file output:
+T_NUM
+T_ID
+Line 2: Lexical error
+
+Side notes: 
+    1. The test cases do not check for the correctness of the solution, rather the overall stability of it.
+    2. The tests might not capture all the cases, if you are doubtful of your solution, always add more test cases.

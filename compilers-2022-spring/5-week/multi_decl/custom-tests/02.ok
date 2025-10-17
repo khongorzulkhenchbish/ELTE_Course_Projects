@@ -1,0 +1,16 @@
+program oszto
+  integer a, b;
+  boolean x, y;
+begin
+  read(a);
+  read(b);
+  x := a > b;
+  y := a > b*2;
+  if x then
+    a := a + b;
+  endif
+  if y then
+    a := a*b;
+  endif
+  write(a);
+end

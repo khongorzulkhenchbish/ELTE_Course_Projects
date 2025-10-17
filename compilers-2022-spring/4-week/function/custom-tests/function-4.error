@@ -1,0 +1,9 @@
+program oszto
+  integer a;
+  function printer(p)
+  begin
+    write(p);
+  end;
+begin
+  printer(a);
+end

@@ -1,0 +1,9 @@
+program forloop
+    integer a;
+    integer b;
+    integer c;
+begin
+    for a := b to c do
+        write(a);
+    done
+end

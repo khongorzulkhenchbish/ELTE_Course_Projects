@@ -1,0 +1,4 @@
+program ures
+begin
+    write(a >> 3);
+end

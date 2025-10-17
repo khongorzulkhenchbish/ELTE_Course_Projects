@@ -1,0 +1,5 @@
+program oszto
+  <integer, integer> c;
+begin
+  c.(1+1) := 2;
+end

@@ -1,0 +1,6 @@
+# Megjegyzes!
+program comment12 # meg egy...
+begin
+    skip;
+end
+# #### Ez is megjegyzes! ****

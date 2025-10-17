@@ -1,0 +1,6 @@
+program par
+  integer i;
+begin
+  read(i);
+  [write(i) || while i < 10 do i := i+1; done];
+end

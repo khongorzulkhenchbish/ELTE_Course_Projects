@@ -1,0 +1,11 @@
+program repea12
+    integer x12;
+    integer y12;
+begin
+    read(x12);
+    read(y12);
+    while x12 > 0 do
+        write(y12);
+        x12 := x12-1;
+    done
+end

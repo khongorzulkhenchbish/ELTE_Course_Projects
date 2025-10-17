@@ -1,0 +1,8 @@
+program oszto
+  integer list a;
+  integer list b;
+  integer i;
+begin
+  a := b++;
+  write(a);
+end

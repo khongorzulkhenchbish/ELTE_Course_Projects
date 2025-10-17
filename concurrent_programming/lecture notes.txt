@@ -1,0 +1,101 @@
+1.  //Thread is a class
+    //Runnable is an interface
+    Thread t1 = new Thread(() -> {
+      //do something
+    }
+
+2.  class Blabla extends Thread {
+	@override
+    	public void run() {
+	    //do something
+	}
+    }
+    new Blabla().start();
+	or
+    Thread t2 = new Blabla();
+    
+4.  We should use constructor to pass the param into run:
+   
+5.  Thread that is called automatically:
+    new Thread(() -> {
+	    //do something
+    }).start();
+    
+6.  concurrency != synchronization
+
+7.  Synchronization is not on the variable/classes. Synchronization is on the block/methods.
+    Synchronized block/method is nothing but the thread safe block/method... so it does not allow two threads to access the resources simultaneously...
+
+8.  Locks are methods of synchronization used to prevent multiple threads from accessing a resource at the same time.
+
+9.  public synchronized void func1() {
+    	//do something
+    }
+    public void func2() {
+        synchronized(this) {
+	    //do something
+	}
+    }
+    func1 == func2 is true except for static methods.
+
+10. public void func2(Collection<integer> iterable) {
+        synchronized(iterable) {
+	    //it means the data structure will be iterated synchronously
+	}
+    }
+    
+11. Atomic operations in concurrent programming are program operations that run completely independently of any other processes.
+
+12. Synchronizde protects the value of the class fom changing and let the threads wait for each other, not concurrent:
+    public class AnimalFarm() {
+        public integer cat;
+	public integer dog;
+
+        public int IncCatandDecDog() {
+	    //protects the dog value
+            synchronized(dog) {
+		if(this.dog<1) {
+	 	    this.dog--;
+		}
+		//protects the cat value
+		synchronized(cat) {
+		    this.cat += 1;
+		}
+	    }
+        }
+	
+	public int DecCatandIncDog() {
+	    //protects the cat value
+            synchronized(cat) {
+		if(this.cat<1) {
+	 	    this.cat--;
+		}
+		//protects the dog value
+		synchronized(dog) {
+		    this.dog += 1;
+		}
+	    }
+        }
+    }
+
+13. new Thread(() -> {
+        for(int i=0; i<10; ++i) {
+	    synchronized(System.out) {
+	        print("Hello"+i);
+	    }
+	}
+    }).start();
+    
+    new Thread(() -> {
+        for(int i=0; i<10; ++i) {
+	    synchronized(System.out) {
+	        print("World"+i);
+	    }
+	}
+    }).start()
+    
+    It runs the two prints from the threads at the same time and we don't have control over schedule.
+    
+14. We can lock only the objects not the built in type. Built-in type includes: boolean, char, byte, short, int, long, float and double. Non-built in type: String, array, list, objecs.
+
+15. 

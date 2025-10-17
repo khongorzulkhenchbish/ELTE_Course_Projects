@@ -1,0 +1,6 @@
+program oszto
+  list a;
+  integer i;
+begin
+  skip;
+end

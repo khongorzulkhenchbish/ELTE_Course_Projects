@@ -1,0 +1,7 @@
+program inc12
+    integer x12;
+begin
+    read(x12);
+    x12 := ((x12)+(1));
+    write(((x12)));
+end

@@ -1,0 +1,8 @@
+Peter   Bud45   catfish 45 catfish  45 carp     53
+John    Bud45   catfish 45 catfish  45 catfish  45
+Katya   Pec32   catfish 96 catfish  96 catfish  96 catfish 100
+Katya   Pec32   carp    10 carp     10
+Jim     Miskolc carp    10 catfish  10 catfish  10
+Jim     Miskolc catfish 10 catfish  10 catfish  10
+Tom     Buda123 carp    10 carp     11 carp     12
+Tim     Buda123 carp    10 carp     11 catfish  10

@@ -1,0 +1,6 @@
+program ures
+    const integer a;
+begin
+    read(a);
+    read(a);
+end

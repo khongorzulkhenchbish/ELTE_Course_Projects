@@ -1,0 +1,7 @@
+4 1
+feathery o 13
+hare h 4
+hungry w 9
+hungry w 500
+arctic f 85
+

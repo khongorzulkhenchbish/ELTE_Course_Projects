@@ -1,0 +1,22 @@
+program str
+    string a;
+    string b;
+    string c;
+    integer x;
+    integer y;
+begin
+    a := "Hello";
+    b := "World";
+    c := "!!!";
+    write(length(a) = length(b));
+    write(length(a) = length(c));
+
+    x := length(a + " " + b + "!");
+    y := length(a * x);
+    write(length(a));
+    write(x);
+    write(y);
+
+    c := a * 3 + " " + b * 3;
+    write(length(c));
+end

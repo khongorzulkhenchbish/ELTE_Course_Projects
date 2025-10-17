@@ -1,0 +1,6 @@
+program ures
+    boolean i;
+begin
+    read(i);
+    write(i >> 3);
+end

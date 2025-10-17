@@ -1,0 +1,11 @@
+program ex
+  integer array arr[100];
+begin
+  arr[13] := 37;
+  arr[81] := 102;
+  write(arr[81]);
+  write(arr[13]);
+  write(arr[80+1] - arr[15-2]);
+  read(arr[arr[80+1] - arr[15-2]]);
+  write(arr[65] = arr[arr[80+1] - arr[15-2]]);
+end

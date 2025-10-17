@@ -1,0 +1,18 @@
+program pow
+    integer x;
+    integer y;
+    boolean isPerfectSquare;
+begin
+    read(x);
+    y := 1;
+    isPerfectSquare := false;
+
+    while not (y > x div 2) and not isPerfectSquare do
+        if y ** 2 = x then
+            isPerfectSquare := true;
+        endif
+        y := y + 1;
+    done 
+
+    write(isPerfectSquare);
+end

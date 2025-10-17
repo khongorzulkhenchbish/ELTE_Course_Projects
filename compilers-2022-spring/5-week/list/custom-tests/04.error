@@ -1,0 +1,7 @@
+program oszto
+  integer list a;
+  integer list b;
+  integer i;
+begin
+  write(b[1+1]);
+end

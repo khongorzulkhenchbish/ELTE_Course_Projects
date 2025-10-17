@@ -1,0 +1,8 @@
+program oszto
+  integer a;
+  integer b;
+begin
+  read(a);
+  duplicate duplicate a := a + 1;
+  write(a);
+end

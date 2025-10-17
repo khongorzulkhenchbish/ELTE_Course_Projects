@@ -1,0 +1,6 @@
+program str
+    integer a;
+    integer x;
+begin
+    x := length(a);
+end

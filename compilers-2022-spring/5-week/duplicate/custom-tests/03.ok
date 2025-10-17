@@ -1,0 +1,13 @@
+program oszto
+  integer a;
+  integer b;
+begin
+  read(a);
+  read(b);
+  if a > b then
+    duplicate a := a - b;
+  else
+    a := b - a;
+  endif
+  duplicate write(a);
+end

@@ -1,0 +1,7 @@
+program forloop
+    integer a;
+begin
+    for a := 1 to 10 do
+        write(a);
+    done
+end

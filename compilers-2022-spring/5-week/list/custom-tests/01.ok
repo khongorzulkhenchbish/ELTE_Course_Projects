@@ -1,0 +1,13 @@
+program oszto
+  integer list a;
+  boolean list b;
+  integer i;
+begin
+  a += [2, 4, 6, 8, 10, 100];   
+  a[10] := 2;                    
+  read(a[11]);
+  a[12] := a[10] + a[11];
+  b := [1,2,3,4,5,6,7];
+  a := a ++ b ++ [100,10,1];
+  write(a);
+end

@@ -1,0 +1,6 @@
+program oszto
+  integer list a;
+begin
+  a := [[1],[2,3]];
+  write(a);
+end

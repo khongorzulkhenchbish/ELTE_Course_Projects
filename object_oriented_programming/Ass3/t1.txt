@@ -1,0 +1,4 @@
+1 1
+feathery o 13
+hare h 4
+

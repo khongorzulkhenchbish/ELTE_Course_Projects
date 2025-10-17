@@ -1,0 +1,7 @@
+program try
+  integer a;
+begin
+  read(a);
+    a := a*10 >> 2+2 >> 6 div 3;
+  write(a);
+end

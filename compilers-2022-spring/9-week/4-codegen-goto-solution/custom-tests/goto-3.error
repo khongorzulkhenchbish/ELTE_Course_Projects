@@ -1,0 +1,6 @@
+program jump
+begin
+    a:
+    a := 1;
+    goto a;
+end

@@ -1,0 +1,7 @@
+program str
+    string a;
+    string b;
+    string c;
+begin
+    c := a div b;
+end

@@ -1,0 +1,9 @@
+program inc12
+    integer x12;
+    integer y12;
+    integer z12;
+begin
+    read(x12);
+    x12 := x12+1;
+    write(x12);
+end

@@ -1,0 +1,5 @@
+program time_tester
+  time a;
+begin
+  minute(a);
+end

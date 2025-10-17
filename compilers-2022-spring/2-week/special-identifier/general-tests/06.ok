@@ -1,0 +1,8 @@
+program infinit12
+    integer x12;
+begin
+    read(x12);
+    while true do
+        write(x12);
+    done
+end

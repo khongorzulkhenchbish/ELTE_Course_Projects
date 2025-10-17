@@ -1,0 +1,7 @@
+program oszto
+  integer list a;
+begin
+  a := [];
+  a += [2, 4, 6, 8, 10, 100];
+  write(a);
+end

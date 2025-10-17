@@ -1,0 +1,6 @@
+program time_tester
+  integer a;
+  integer b;
+begin
+  a := minute(b);
+end

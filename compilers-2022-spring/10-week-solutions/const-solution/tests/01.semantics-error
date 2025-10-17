@@ -1,0 +1,6 @@
+program negate
+#   const integer i;
+    boolean b;
+begin
+    write(i);
+end
